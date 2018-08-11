@@ -1,10 +1,10 @@
 {
-  "SOUL GLO": "corndogs-and-applesauce",
+  "": "awol",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "2.1.6",
+  "description": "Doe or die",
   "keywords": ["syntax", "theme"],
-  "repository": "https://github.com/atom/SOUL-GLO",
+  "repository": "https://github.com/Stitch-Danger/awol,
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
