@@ -2,6 +2,7 @@
   "name": "awol",
   "version": "2.1.6",
   "description": "A theme",
+
   }
   "dependencies": {
     "express": "^4.13.3", 
@@ -23,5 +24,22 @@
     "Your moms and them,
   ]
   "license": "MIT"
+
+  "dependencies": {},  
+  "readme": "awol this has been a hassle", 
+    "readmeFilename": "README.md",
+    "repository": {
+    "type": "git",
+  }
+  "license": "MIT"{
+  "author": "Stitch-Danger-Cleve-OH",
+  "homepage": "https://github.com/Stitch-Danger/awol.git",  
+  "keywords": [
+    "rock beast",
+    "canine teeth",
+    "real recognize real"
+  ]
+  
 }
-   
+
+
