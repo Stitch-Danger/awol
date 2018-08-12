@@ -24,9 +24,6 @@
     "Your moms and them,
   ]
   "license": "MIT"
-}
-   
-=======
 
   "dependencies": {},  
   "readme": "awol this has been a hassle", 
@@ -45,29 +42,4 @@
   
 }
 
-
-=======
-  }
-  "dependencies": {
-    "express": "^4.13.3", 
-  }  
-  "readme": "awol this has been a hassle",{
-    "readmeFilename": "README.md",
-  }
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Stitch-Danger/awol.git",
-  }
-  "keywords":{
-    "rock beast",]
-    "canine teeth",
-    "real recognize real",
-  ]
-  "author": "Stitch Danger",
-  "contributors": [
-    "Your moms and them,
-  ]
-  "license": "MIT"
-}
-   
 
