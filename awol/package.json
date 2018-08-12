@@ -1,0 +1,12 @@
+{
+  "": "awol",
+  "theme": "syntax",
+  "version": "2.1.6",
+  "description": "Doe or die",
+  "keywords": ["syntax", "theme"],
+  "repository": "https://github.com/Stitch-Danger/awol,
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

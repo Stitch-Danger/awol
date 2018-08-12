@@ -1,12 +1,73 @@
 {
-  "SOUL GLO": "corndogs-and-applesauce",
-  "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
-  "keywords": ["syntax", "theme"],
-  "repository": "https://github.com/atom/SOUL-GLO",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "name": "awol",
+  "version": "2.1.6",
+  "description": "A theme",
+
   }
+  "dependencies": {
+    "express": "^4.13.3", 
+  }  
+  "readme": "awol this has been a hassle",{
+    "readmeFilename": "README.md",
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stitch-Danger/awol.git",
+  }
+  "keywords":{
+    "rock beast",]
+    "canine teeth",
+    "real recognize real",
+  ]
+  "author": "Stitch Danger",
+  "contributors": [
+    "Your moms and them,
+  ]
+  "license": "MIT"
 }
+   
+=======
+
+  "dependencies": {},  
+  "readme": "awol this has been a hassle", 
+    "readmeFilename": "README.md",
+    "repository": {
+    "type": "git",
+  }
+  "license": "MIT"{
+  "author": "Stitch-Danger-Cleve-OH",
+  "homepage": "https://github.com/Stitch-Danger/awol.git",  
+  "keywords": [
+    "rock beast",
+    "canine teeth",
+    "real recognize real"
+  ]
+  
+}
+
+
+=======
+  }
+  "dependencies": {
+    "express": "^4.13.3", 
+  }  
+  "readme": "awol this has been a hassle",{
+    "readmeFilename": "README.md",
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stitch-Danger/awol.git",
+  }
+  "keywords":{
+    "rock beast",]
+    "canine teeth",
+    "real recognize real",
+  ]
+  "author": "Stitch Danger",
+  "contributors": [
+    "Your moms and them,
+  ]
+  "license": "MIT"
+}
+   
+
