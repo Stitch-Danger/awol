@@ -1,12 +1,27 @@
 {
-  "": "awol",
-  "theme": "syntax",
+  "name": "awol",
   "version": "2.1.6",
-  "description": "Doe or die",
-  "keywords": ["syntax", "theme"],
-  "repository": "https://github.com/Stitch-Danger/awol,
-  "license": "MIT",
+  "description": "A theme",
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stitch-Danger/awol.git"
+  },
+  "keywords": [
+    "rock beast",
+    "canine teeth",
+    "real recognize real"
+  ],
+  "author": "Stitch Danger",
+  "contributors": [
+    "Your moms and them"
+  ],
+  "license": "MIT"
 }
+   
