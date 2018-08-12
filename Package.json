@@ -14,7 +14,7 @@
   "name": "awol", 
   "optionalDependencies": {},
   "readme": "awol this has been a hassle",
-  "readmeFilename" "README.md",
+  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/Stitch-Danger/awol.git"
