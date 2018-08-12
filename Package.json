@@ -1,0 +1,28 @@
+{
+  "dependencies": {},
+  "Description": "Smooth, subtle, understated syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom =>1.0.0<2.0.0"
+  },
+  "homepage": "https://github.com/Stitch-Danger/awol",
+  "keywords": [
+    "Anguirus",
+    "Cleveland"
+  ],
+  "license": "MIT",
+  "name": "awol", 
+  "optionalDependencies": {},
+  "readme": "awol this has been a hassle",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stitch-Danger/awol.git"
+  },
+  "author": "Stitch Danger",
+  "version" "2.1.6" 
+}
+  
+
+   
+  
