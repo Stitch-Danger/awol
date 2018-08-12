@@ -2,7 +2,32 @@
   "name": "awol",
   "version": "2.1.6",
   "description": "A theme",
-<<<<<<< HEAD
+
+  }
+  "dependencies": {
+    "express": "^4.13.3", 
+  }  
+  "readme": "awol this has been a hassle",{
+    "readmeFilename": "README.md",
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stitch-Danger/awol.git",
+  }
+  "keywords":{
+    "rock beast",]
+    "canine teeth",
+    "real recognize real",
+  ]
+  "author": "Stitch Danger",
+  "contributors": [
+    "Your moms and them,
+  ]
+  "license": "MIT"
+}
+   
+=======
+
   "dependencies": {},  
   "readme": "awol this has been a hassle", 
     "readmeFilename": "README.md",
@@ -45,4 +70,4 @@
   "license": "MIT"
 }
    
->>>>>>> e36f65b76c612118ae7b547867f53762a6e99c32
+
