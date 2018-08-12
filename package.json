@@ -1,73 +1,24 @@
 {
   "name": "awol",
+  "theme": "syntax",
   "version": "2.1.6",
-  "description": "A theme",
-
-  }
-  "dependencies": {
-    "express": "^4.13.3", 
-  }  
-  "readme": "awol this has been a hassle",{
-    "readmeFilename": "README.md",
-  }
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Stitch-Danger/awol.git",
-  }
-  "keywords":{
-    "rock beast",]
-    "canine teeth",
-    "real recognize real",
-  ]
-  "author": "Stitch Danger",
-  "contributors": [
-    "Your moms and them,
-  ]
-  "license": "MIT"
-}
-   
-=======
-
-  "dependencies": {},  
-  "readme": "awol this has been a hassle", 
-    "readmeFilename": "README.md",
-    "repository": {
-    "type": "git",
-  }
-  "license": "MIT"{
-  "author": "Stitch-Danger-Cleve-OH",
-  "homepage": "https://github.com/Stitch-Danger/awol.git",  
+  "description": "A dark, rich, syntax theme. Quite buttery.",
   "keywords": [
-    "rock beast",
-    "canine teeth",
-    "real recognize real"
-  ]
-  
-}
-
-
-=======
-  }
+    "buttery",
+    "dark",
+    "awol",
+    "Cleveland",
+    "syntax"
+  ],
+  "repository": "https://github.com/Stitch-Danger/awol",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
   "dependencies": {
-    "express": "^4.13.3", 
-  }  
-  "readme": "awol this has been a hassle",{
-    "readmeFilename": "README.md",
+    "awol": "^2.1.6"
   }
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Stitch-Danger/awol.git",
-  }
-  "keywords":{
-    "rock beast",]
-    "canine teeth",
-    "real recognize real",
-  ]
-  "author": "Stitch Danger",
-  "contributors": [
-    "Your moms and them,
-  ]
-  "license": "MIT"
-}
-   
 
+
+   
+  

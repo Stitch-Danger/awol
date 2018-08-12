@@ -1,67 +1,56 @@
-// A shoddy implementation of adding or removing styles based on configuration
-// If this theme grows to support more features, I'll adjust how this works
-@import "ui-syntax-include";
-@import "ui-variables";
 
-atom-text-editor {
-
-    // Autocomplete & Ternjs, for legibility
-    // https://atom.io/packages/autocomplete-plus
-    // https://github.com/tststs/atom-ternjs
-    atom-overlay {
-        atom-ternjs-type {
-            // temp styles, because it's
-            // weird and broken when text wraps
-            // at the end of your viewport
-            // padding: 0;
-            // border: none;
-            // border-radius: 0;
-
-            // span {
-            //     padding: 0;
-            // }
-            // & > span {
-            //     background: @base-background-color;
-            //     box-shadow: 0 1px 5px rgba(0,0,0,0.3), inset 0px 1px @base-accent-color !important;
-            //     padding: 3px 7px;
-            //     border-radius: @component-border-radius;
-            // }
-        }
-        autocomplete-suggestion-list {
-            box-shadow: 0 1px 5px rgba(0,0,0,0.3) !important;
-
-            .suggestion-list-scroller {
-                // overflow-x: hidden !important;
-                // .icon-letter {
-                //     top: 0 !important;
-                // }
-
-                .selected {
-                    i {
-                        color: white;
+     @import:"ui-syntax-include";
+     @import:"ui-variables-include";                                                                                                             
+    }                                                                                         
+            atom-ternjs-typ
+               padding: 0;
+               border: none;
+               border-radius: 0;            // Autocomplete & Ternjs
+            }
+              
+               span 
+                   padding: 0;
+               }
+             & > span 
+                   background: rgba(0, 0, 0, 0.3);
+                   box-shadow: 0 1px 5px @flat-black, inset 0px 1px @base-accent-color !important;
+                   padding: 3px 7px;
+                   border-radius: 20%;
+               }         
+        
+        autocomplete-suggestion-list;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+           
+           }
+            .suggestion-list-scroller;
+                   overflow-x: hidden;
+                   .icon-letter 
+                       top: 0;
+               }        
+               .selected-color: @gray;
                     }
 
                     // .word, .snippet-completion,
                     // .left-label, .right-label {
-                    //     color: white !important;
+                    //     color: @gray !importantm;
                     // }
-                    .icon-container > i {
-                        background: rgba(255, 255, 255, 0.1) !important;
-                    }
-                    // .icon-letter {
-                    //     color: white !important;
+                    .icon-container > i 
+                        background: rgba(255, 255, 255, 0.1);
+                         }
+                   / .icon-letter                                 
+                    //     color: white !important;{ 
                     // }
                 }
             }
-            .suggestion-description {
-                background: transparent !important;
-                color: darken(@text-color, 10%) !important;
+            .suggestion-description: 
+                background: transparent;
+                color: darken(@text-color, 10%);
                 border-top: 1px solid darken(@base-background-color, 4%);
                 box-shadow: inset 0px 1px darken(@base-accent-color, 2%);
 
                 .suggestion-description-content,
-                .suggestion-description-more-link {
-                    font-size: @font-size !important;
+                .suggestion-description-more-link, 
+                    font-size: @font-size;
                 }
             }
         }
@@ -69,13 +58,13 @@ atom-text-editor {
 
     // Minimap styling
     // https://atom.io/packages/minimap
-    &.editor {
-        atom-text-editor-minimap {
-            /deep/ .minimap-visible-area {
+    &.editor:
+        atom-text-editor-minimap.
+            /deep/ .minimap-visible-area 
                 background: transparent;
 
-                &:after {
-                    background: fadeout(@accent-color-subtle, 50%) !important;
+                &:after 
+                    background: fadeout(@accent-color-subtle, 50%);
                 }
             }
         }
@@ -83,17 +72,17 @@ atom-text-editor {
 }
 
 // Settings specific styling
-.settings-view {
-    .config-menu {
+.settings-view 
+    .config-menu 
         min-width: 175px;
         max-width: 175px;
         border-right: none;
         background: transparent;
 
-        .button-area {
+        .button-area 
             margin: 0;
 
-            .btn {
+            .btn 
                 text-align: left;
                 height: 37px;
                 border-radius: 0;
@@ -103,47 +92,47 @@ atom-text-editor {
                 background: transparent;
                 transition: none;
 
-                &::before {
+                &::before 
                     width: 16px;
                 }
-                &:hover {
+                &:hover 
                     background-color: rgba(255, 255, 255, 0.07);
                 }
-                &:active {
+                &:active 
                     box-shadow: none;
                     color: #fff;
                 }
             }
         }
     }
-    .section-heading, .sub-section-heading, h1 {
-        font-weight: 400 !important;
-        font-size: 15px !important;
-    }
+    .section-heading, .sub-section-heading, h1 
+        font-weight: 400;
+        font-size: 15px;
+    
     .btn.btn-info,
-    .btn.btn-primary {
+    .btn.btn-primary 
         background: @accent-color-bg;
-        &:hover {
-            background: lighten(@accent-color-bg, 3%) !important;
+        &:hover 
+            background: lighten(@accent-color-bg, 3%);
         }
     }
-    .alert-info {
+    .alert-info 
         background: @accent-color-bg;
         color: @text-color-highlight;
         border: none;
     }
     .package-card,
-    .thumbnail {
+    .thumbnail 
         background: @background-color-highlight;
         box-shadow: 0px 1px 3px @app-background-color;
     }
-    .checkbox {
-        input {
-            &:active {
-                background: @accent-color-bg !important;
+    .checkbox 
+        input
+            &:active 
+                background: @accent-color-bg;
             }
-            &:checked {
-                background: @accent-color !important;
+            &:checked 
+                background: @accent-color;
             }
         }
     }
