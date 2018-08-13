@@ -1,12 +1,8 @@
 {
-  "": "awol",
-  "theme": "syntax",
-  "version": "2.1.6",
-  "description": "Doe or die",
-  "keywords": ["syntax", "theme"],
-  "repository": "https://github.com/Stitch-Danger/awol,
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  }
+ "name": "awol",
+ "version": "1.0.1",
+ "devDependencies": {
+  "grunt": "~0.4.2",
+  "load-grunt-tasks": "~0.2.0"
+ }
 }
