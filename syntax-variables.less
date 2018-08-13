@@ -1,0 +1,27 @@
+@import "colors";
+
+@syntax-text-color: @forest-green;
+@syntax-cursor-line: fade(@flat-black, 1%)
+@syntax-background-color: @flat-black;
+@syntax-selection-color: lighten(@flat-black, 3%);
+
+// Guide colors
+@syntax-wrap-guide-color: @taupe;
+@syntax-indent-guide-color: @taupe;
+@syntax-invisible-character-color: @taupe;
+
+// For find and replace markers
+@syntax-result-marker-color: @pistachio-green;
+@syntax-result-marker-color-selected: @mint;
+
+// Gutter colors
+@syntax-gutter-text-color: @taupe;
+@syntax-gutter-text-color-selected: @light-orange);
+@syntax-gutter-background-color: lighten(@flat-black, 6%);
+@syntax-gutter-background-color-selected: lighten(@syntax-background-color, 13%);
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: #;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;

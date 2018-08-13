@@ -1,4 +1,5 @@
 @import "syntax-variables";
+<<<<<<< HEAD
 @base00: #1c1808;
 @base01: #282928;
 @base02: rgba(80, 80, 80, 0.33);
@@ -78,6 +79,60 @@ atom-text-editor {
  atom-text-editor .search-results .syntax--marker.current-result .region {
   border: @base05;
  }
+=======
+}
+atom-text-editor 
+  background-color: @syntax-background-color;
+  }
+  color: @syntax-text-color;
+  }
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .gutter {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0);
+
+    .line-number {
+      &.cursor-line {
+        background-color: @syntax-gutter-background-color-selected;
+        color: @syntax-gutter-text-color-selected;
+      }
+
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
+      }
+    }
+  }
+
+     .gutter .line-number.folded {
+      color: rgba(0, 0, 0, 0)
+     .gutter .line-number:after
+     .fold-marker:after {
+      color: @dark-gray;
+  }
+
+  .invisible {
+    color: ;
+  }
+
+  .cursor {
+    color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+>>>>>>> be6878663b5645f9b62224ce0fd9f1917a7c7ba1
 }
 
 .syntax--variable {

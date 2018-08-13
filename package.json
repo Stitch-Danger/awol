@@ -1,0 +1,20 @@
+{
+  "name": "awol",
+  "theme": "syntax",
+  "version": "2.1.6",
+  "description": "A dark, rich, syntax theme. Quite buttery.",
+  "keywords": [
+    "buttery",
+    "dark",
+    "awol",
+    "Cleveland",
+    "syntax"
+  ],
+  "repository": "https://github.com/Stitch-Danger/awol",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "dependencies": {
+    "awol": "^2.1.6"
+  }
