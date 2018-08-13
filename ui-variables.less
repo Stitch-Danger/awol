@@ -9,18 +9,20 @@
 
 // Try to edit some of the values below to see your theme change.
 // A good start is to change the color of the `@base-background-color` variable.
+@import: "colors";
+@import: "syntax-variables"
 
 
 // Text Colors
-@text-color: @pastel-green;
-@text-color-subtle:    #888;
-@text-color-highlight: #fff;
-@text-color-selected:  #fff;
+@text-color: @shamrock-green;
+@text-color-subtle: @lilac;
+@text-color-highlight: @LED-green;
+@text-color-selected: @neon-avacado-green;
 
-@text-color-info:    #22CCFF;
-@text-color-success: #99EE66;
-@text-color-warning: #B8B8B8;
-@text-color-error:   #e27e8d;
+@text-color-info:    @aqua;
+@text-color-success: @vibrant-green;
+@text-color-warning: @vibrant-orange;
+@text-color-error:   @vibrant-red;
 
 // Background colors
 @background-color-info:    #1d1d1d;
@@ -28,8 +30,8 @@
 @background-color-warning: #1d1d1d;
 @background-color-error:   #1d1d1d;
 
-@background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected:  lighten(@base-background-color, 10%);
+@background-color-highlight: lighten(@base-background-color, 2%);
+@background-color-selected:  lighten(@base-background-color, 2%);
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
