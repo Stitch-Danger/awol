@@ -1,0 +1,83 @@
+@import "syntax-variables";
+
+// Text Colors
+@text-color: @fg;
+@text-color-subtle: darken(@fg, 13%);
+@text-color-highlight: lighten(@fg, 10%);
+@text-color-selected: #fff;
+
+@text-color-info: #22ccff;
+@text-color-success: #99ee00;
+@text-color-warning: @vibrant-orange;
+@text-color-error: @vibrant-red;
+
+// Background colors
+@background-color-info: #1c1808;
+@background-color-success: #1d1d1d;
+@background-color-warning: #1d1d1d;
+@background-color-error: #1d1d1d;
+
+@background-color-highlight: lighten(@base-background-color, 5%);
+@background-color-selected: lighten(@base-background-color, 10%);
+@app-background-color: darken(@base-background-color, 5%);
+
+// Base colors
+@base-background-color: #111;
+@base-border-color: #000;
+
+// Component colors
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: @base-border-color;
+
+@input-background-color: @app-background-color;
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color: @base-border-color;
+
+@inset-panel-background-color: lighten(@base-background-color, 4%);
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: lighten(@base-background-color, 4%);
+@panel-heading-border-color: @base-border-color;
+
+@overlay-background-color: lighten(@base-background-color, 5%);
+@overlay-border-color: @base-border-color;
+
+@button-background-color: lighten(@base-background-color, 10%);
+@button-background-color-hover: lighten(@button-background-color, 12%);
+@button-background-color-selected: @button-background-color-hover;
+@button-border-color: @base-border-color;
+
+@tab-bar-background-color: @base-background-color;
+@tab-bar-border-color: @base-border-color;
+@tab-background-color: @tab-bar-background-color;
+@tab-background-color-active: @base-background-color;
+@tab-border-color: @base-border-color;
+
+@tree-view-background-color: @base-background-color;
+@tree-view-border-color: @base-border-color;
+
+// Site colors
+@ui-site-color-1: #0af; // blue
+@ui-site-color-2: #99ee66; // green
+@ui-site-color-3: #ffcc33; // orange
+@ui-site-color-4: #d831b0; // pink
+@ui-site-color-5: #ebdd5b; // yellow
+
+// Sizes
+@font-size: 12px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+
+@tab-height: 30px;
+
+// Misc
+@component-border-radius: 2px;
+@font-family: "Code Fira", "Roboto Mono", ".SFNSText-Regular";

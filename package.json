@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "awol",
   "theme": "syntax",
@@ -17,4 +18,25 @@
   },
   "dependencies": {
     "awol": "^2.1.6"
+=======
+{
+  "name": "awol",
+  "theme": "syntax",
+  "version": "2.1.6",
+  "description": "A dark, rich, syntax theme. Quite buttery.",
+  "keywords": [
+    "buttery",
+    "dark",
+    "awol",
+    "Cleveland",
+    "syntax"
+  ],
+  "repository": "https://github.com/Stitch-Danger/awol",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "dependencies": {
+    "awol": "^2.1.6"
+>>>>>>> 674f2b3a6c49759653b826c199aa2f8e08aa1593
   }
