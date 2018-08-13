@@ -1,0 +1,240 @@
+@import "ui-variables";
+@import "syntax-variables";
+@fg: @syntax-text-color;
+@bg: @syntax-backgroung-color;
+@fg-accent: @light-gray;
+@fg-contrast: contrast: (@base07, darken(#5dfc0a, 10%), fade(#317b22, 5%));
+@fg-strong: contrast: (@base0C, darken(@taupe, 4%), darken(@mint, 20%))
+@fg-subtle: contrast: (@mint, darken(@mint, 10%), lighten(@forest-green, 25%));
+@border-color: @hot-pink;
+@border: contrast(@taupe, darken(@brown, 16%), lighten(@bg, 26%);
+@syntax-cursor-color: @cherry;
+
+// Guide colors
+@syntax-wrap-guide-color: @taupe;
+@syntax-indent-guide-color: lighten(@bg, 7.5%);
+@syntax-invisible-character-color: @light-gray;
+
+// For find and replace markers
+@keyframes square-to-circle {
+ 0% {
+  border-radius: 0, 0, 0, 0;
+  background: clear-pink;
+ }
+ 25% {
+  border-radius: 50%, 0, 0, 0;
+  background: clear-magenta;
+ }
+ 50% {
+  border-radius: 50%, 50%, 0, 0;
+  background: darken(clear-pink, 10%);
+ }
+ 75% {
+  border-radius: 50%, 50%, 50%, 0;
+  background: darken(clear-magenta, 10%);
+ }
+ 100% {
+  border-radius: 50%, 50%, 50%, 50%;
+  background: clear-magenta;
+ }
+ 
+@syntax-result-marker-color-selected: @hot-pink;
+
+
+// Gutter colors
+@syntax-gutter-text-color: @light-orange;
+@syntax-gutter-text-color-selected: brighten(@flat-black, 33%); 
+@syntax-gutter-background-color: lighten(@flat-black, 5%);
+@syntax-gutter-background-color-selected: lighten(flat-black, 10%;)
+
+// Base colors
+@base-background-color: @bg;
+@base-border-color: #contrast(@bg,lighten(@black,32%),darken(@taupe,10%));
+
+// Component colors
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color: @base-border-color;
+
+@input-background-color: @app-background-color;
+@input-border-color: @base-border-color;
+
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color: @base-border-color;
+
+@inset-panel-background-color: lighten(@base-background-color, 4%);
+@inset-panel-border-color: @base-border-color;
+
+@panel-heading-background-color: lighten(@base-background-color, 4%);
+@panel-heading-border-color: @base-border-color;
+
+@overlay-background-color: lighten(@base-background-color, 5%);
+@overlay-border-color: @base-border-color;
+
+@button-background-color: lighten(@base-background-color, 10%);
+@button-background-color-hover: lighten(@button-background-color, 12%);
+@button-background-color-selected: @button-background-color-hover;
+@button-border-color: @base-border-color;
+
+@tab-bar-background-color: @base-background-color;
+@tab-bar-border-color: @base-border-color;
+@tab-background-color: @tab-bar-background-color;
+@tab-background-color-active: @base-background-color;
+@tab-border-color: @base-border-color;
+
+@tree-view-background-color: @base-background-color;
+@tree-view-border-color: @base-border-color;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;
+
+
+
+
+// Headings --------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ line-height: 1.5;
+ margin-top: @margin;
+ margin-bottom: @margin / 3;
+ color: @fg-strong;
+ h1 {
+  font-size: 2.4em;
+  font-weight: 500;
+  h2 {
+   font-size: 1.8em;
+   font-weight: 400;
+   h3 {
+    font-size: 1.5em;
+    h4 {
+     font-size: 1.2em;
+     font-weight: 600;
+     h5 {
+      font-size: 1.1em;
+      font-size: 1em;
+      // Emphasis --------------------
+      strong {
+       del {
+        color: @fg-subtle;
+        // Link --------------------
+        a,
+        a code {
+         color: @fg-accent;
+         // Images --------------------
+         img {
+          max-width: 100%;
+          // Paragraph --------------------
+          & > p {
+           margin-bottom: @margin;
+           // List --------------------
+           & > ul,
+           & > ol {
+            // Blockquotes --------------------
+            blockquote {
+             margin: @margin 0;
+             font-size: inherit;
+             border-color: @border;
+             border-width: 4px;
+             // HR --------------------
+             hr {
+              margin: @margin*2 0;
+              border-top: 2px dashed @border;
+              background: none;
+              // Table --------------------
+              table {
+               th {
+                th,
+                td {
+                 padding: 0.66em 1em;
+                 border: 1px solid @border;
+                 // Code --------------------
+                 code {
+                  background-color: contrast(@bg, lighten(@black, 32%),darken(@taupe,10%))
+                  @syntax-background-color,
+                  lighten(@syntax-background-color, 8%),
+                  darken(@syntax-background-color, 6%)
+                  );
+                  atom-text-editor {
+                   margin: @margin em;
+                   padding: 1em;
+                   border-radius: 3px;
+                   lighten(@syntax-background-color, 4%),
+                   darken(@syntax-background-color, 4%)
+                   // KBD --------------------
+                   kbd {
+                    border: 1px solid @border;
+                    border-bottom: 2px solid darken(@border, 6%);
+                    background-color:@bg ;
+                    
+                    @font.family: Fira Code, Roboto Mono, SF UI Text, Ubuntu;
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
