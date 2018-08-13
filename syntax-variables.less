@@ -1,27 +1,34 @@
 @import "colors";
+// General colors
+@syntax-text-color: @tone05;
+@syntax-cursor-color: @tone05;
+@syntax-selection-color: @base01;
+@syntax-background-color: @base00
 
-@syntax-text-color: @forest-green;
-@syntax-cursor-line: fade(@flat-black, 1%)
-@syntax-background-color: @flat-black;
-@syntax-selection-color: lighten(@flat-black, 3%);
+@syntax-text-color: @tone05;
+@syntax-cursor-line: @tone04;
+@syntax-background-color: @base00;
+@syntax-selection-color: @base01;
 
 // Guide colors
-@syntax-wrap-guide-color: @taupe;
-@syntax-indent-guide-color: @taupe;
-@syntax-invisible-character-color: @taupe;
+@syntax-wrap-guide-color: @base03;
+@syntax-indent-guide-color: @base03;
+@syntax-wrap-guide-width: "2px";
+@syntax-invisible-character-color:@tone03;
 
 // For find and replace markers
-@syntax-result-marker-color: @pistachio-green;
-@syntax-result-marker-color-selected: @mint;
+@syntax-result-marker-color: @tone06;
+@syntax-result-marker-color-selected: @tone06;
 
 // Gutter colors
-@syntax-gutter-text-color: @taupe;
-@syntax-gutter-text-color-selected: @light-orange);
-@syntax-gutter-background-color: lighten(@flat-black, 6%);
-@syntax-gutter-background-color-selected: lighten(@syntax-background-color, 13%);
+@syntax-gutter-text-color: @base05;
+@syntax-gutter-text-color-selected: @base03;
+@syntax-gutter-background-color: @base00;
+@syntax-gutter-background-color-selected: @base01;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: #;
-@syntax-color-added: @green;
-@syntax-color-modified: @orange;
-@syntax-color-removed: @red;
+// These are static and were not extracted from your textmate theme
+@syntax-color-renamed: @base0C;
+@syntax-color-added: @base0D;
+@syntax-color-modified: @base0F;
+@syntax-color-removed: @base0E;

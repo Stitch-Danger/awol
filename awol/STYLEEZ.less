@@ -1,6 +1,6 @@
 @import "ui-variables";
 @import "syntax-variables";
-@fg: @syntax-text-color;
+@fg: @tone05;
 @bg: @syntax-backgroung-color;
 @fg-accent: @light-gray;
 @fg-contrast: contrast: (@base07, darken(#5dfc0a, 10%), fade(#317b22, 5%));
@@ -11,9 +11,9 @@
 @syntax-cursor-color: @cherry;
 
 // Guide colors
-@syntax-wrap-guide-color: @taupe;
-@syntax-indent-guide-color: lighten(@bg, 7.5%);
-@syntax-invisible-character-color: @light-gray;
+@syntax-wrap-guide-color: @base03;
+@syntax-indent-guide-color: lighten(@base0F, 7.5%);
+@syntax-invisible-character-color: @code03;
 
 // For find and replace markers
 @keyframes square-to-circle {
@@ -42,13 +42,14 @@
 
 
 // Gutter colors
-@syntax-gutter-text-color: @light-orange;
-@syntax-gutter-text-color-selected: brighten(@flat-black, 33%); 
-@syntax-gutter-background-color: lighten(@flat-black, 5%);
-@syntax-gutter-background-color-selected: lighten(flat-black, 10%;)
+@syntax-gutter-text-color: @base05;
+@syntax-gutter-text-color-selected: @purple; 
+@syntax-gutter-background-color: @code00;
+@syntax-gutter-background-color-selected: @base01;
+
 
 // Base colors
-@base-background-color: @bg;
+@base-background-color: @code00;
 @base-border-color: #contrast(@bg,lighten(@black,32%),darken(@taupe,10%));
 
 // Component colors
